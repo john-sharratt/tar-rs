@@ -1,0 +1,3 @@
+(function() {var implementors = {};
+implementors["tar_wasi"] = [{"text":"impl <a class=\"trait\" href=\"https://doc.rust-lang.org/1.56.1/core/default/trait.Default.html\" title=\"trait core::default::Default\">Default</a> for <a class=\"struct\" href=\"tar_wasi/struct.GnuExtSparseHeader.html\" title=\"struct tar_wasi::GnuExtSparseHeader\">GnuExtSparseHeader</a>","synthetic":false,"types":["tar_wasi::header::GnuExtSparseHeader"]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()
