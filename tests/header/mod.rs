@@ -1,4 +1,6 @@
 #![cfg_attr(target_os = "wasi", allow(unused_imports, dead_code))]
+extern crate tar_wasi as tar;
+
 use std::fs::{self, File};
 use std::io::{self, Write};
 use std::path::Path;

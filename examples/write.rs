@@ -1,4 +1,4 @@
-extern crate tar;
+extern crate tar_wasi as tar;
 
 use std::fs::File;
 use tar::Builder;

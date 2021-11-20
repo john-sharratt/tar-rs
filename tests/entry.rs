@@ -1,5 +1,5 @@
 #![cfg(not(target_os = "wasi"))]
-extern crate tar;
+extern crate tar_wasi as tar;
 extern crate tempfile;
 
 use std::fs::{create_dir, File};

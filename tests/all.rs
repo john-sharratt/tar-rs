@@ -1,6 +1,6 @@
 #![cfg_attr(target_os = "wasi", allow(unused_imports, dead_code))]
 extern crate filetime;
-extern crate tar;
+extern crate tar_wasi as tar;
 extern crate tempfile;
 #[cfg(all(unix, feature = "xattr"))]
 extern crate xattr;

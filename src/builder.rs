@@ -94,6 +94,7 @@ impl<W: Write> Builder<W> {
     /// # Examples
     ///
     /// ```
+    /// extern crate tar_wasi as tar;
     /// use tar::{Builder, Header};
     ///
     /// let mut header = Header::new_gnu();
@@ -139,6 +140,7 @@ impl<W: Write> Builder<W> {
     /// # Examples
     ///
     /// ```
+    /// extern crate tar_wasi as tar;
     /// use tar::{Builder, Header};
     ///
     /// let mut header = Header::new_gnu();
@@ -180,6 +182,7 @@ impl<W: Write> Builder<W> {
     /// # Examples
     ///
     /// ```no_run
+    /// extern crate tar_wasi as tar;
     /// use tar::Builder;
     ///
     /// let mut ar = Builder::new(Vec::new());
@@ -212,6 +215,7 @@ impl<W: Write> Builder<W> {
     /// # Examples
     ///
     /// ```no_run
+    /// extern crate tar_wasi as tar;
     /// use tar::Builder;
     ///
     /// let mut ar = Builder::new(Vec::new());
@@ -252,6 +256,7 @@ impl<W: Write> Builder<W> {
     /// # Examples
     ///
     /// ```no_run
+    /// extern crate tar_wasi as tar;
     /// use std::fs::File;
     /// use tar::Builder;
     ///
@@ -286,6 +291,7 @@ impl<W: Write> Builder<W> {
     /// # Examples
     ///
     /// ```
+    /// extern crate tar_wasi as tar;
     /// use std::fs;
     /// use tar::Builder;
     ///
@@ -317,6 +323,7 @@ impl<W: Write> Builder<W> {
     /// # Examples
     ///
     /// ```
+    /// extern crate tar_wasi as tar;
     /// use std::fs;
     /// use tar::Builder;
     ///

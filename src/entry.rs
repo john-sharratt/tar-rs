@@ -188,6 +188,7 @@ impl<'a, R: Read> Entry<'a, R> {
     /// # Examples
     ///
     /// ```no_run
+    /// extern crate tar_wasi as tar;
     /// use std::fs::File;
     /// use tar::Archive;
     ///
@@ -216,6 +217,7 @@ impl<'a, R: Read> Entry<'a, R> {
     /// # Examples
     ///
     /// ```no_run
+    /// extern crate tar_wasi as tar;
     /// use std::fs::File;
     /// use tar::Archive;
     ///

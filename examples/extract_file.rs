@@ -4,7 +4,7 @@
 //! name as the first argument provided, and then prints the contents of that
 //! file to stdout.
 
-extern crate tar;
+extern crate tar_wasi as tar;
 
 use std::env::args_os;
 use std::io::{copy, stdin, stdout};

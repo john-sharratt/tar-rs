@@ -97,6 +97,7 @@ impl<R: Read> Archive<R> {
     /// # Examples
     ///
     /// ```no_run
+    /// extern crate tar_wasi as tar;
     /// use std::fs::File;
     /// use tar::Archive;
     ///
