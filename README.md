@@ -1,4 +1,4 @@
-# tar-rs
+# tar-wasi
 
 [Documentation](https://docs.rs/tar-wasi)
 
