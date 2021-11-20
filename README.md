@@ -1,23 +1,23 @@
 # tar-rs
 
-[Documentation](https://docs.rs/tar)
+[Documentation](https://docs.rs/tar-wasi)
 
-A tar archive reading/writing library for Rust.
+A tar archive reading/writing library for Rust that supports the wasm32-wasi target
 
 ```toml
 # Cargo.toml
 [dependencies]
-tar = "0.4"
+tar-wasi = "0.4"
 ```
 
 ## Reading an archive
 
 ```rust,no_run
-extern crate tar;
+extern crate tar_wasi;
 
 use std::io::prelude::*;
 use std::fs::File;
-use tar::Archive;
+use tar_wasi::Archive;
 
 fn main() {
     let file = File::open("foo.tar").unwrap();
@@ -43,11 +43,11 @@ fn main() {
 ## Writing an archive
 
 ```rust,no_run
-extern crate tar;
+extern crate tar_wasi;
 
 use std::io::prelude::*;
 use std::fs::File;
-use tar::Builder;
+use tar_wasi::Builder;
 
 fn main() {
     let file = File::create("foo.tar").unwrap();
